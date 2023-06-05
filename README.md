@@ -217,8 +217,10 @@ Or make your own! in chrome://settings/searchEngines
     ```sh
     https://github.com/search?q=%s+org%3Awix-private
     ```
-- Your PRs!
+- ***Pro Tip*** Your PRs! add the following for the `pr` search command
     ```sh
+    My Pr's
+    pr
     https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3A%40me+archived%3Afalse+sort%3Aupdated-desc
     ```
 
