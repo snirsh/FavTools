@@ -101,49 +101,50 @@ brew install --cask raycast
 
 ### Chrome Extensions
 
-```sh
-# Viewer devtools
-https://chrome.google.com/webstore/detail/aahcojdfiikihlpfamimldmionifllkl
-# Web Store
-https://chrome.google.com/webstore/detail/ahfgeienlihckogmohjhadlkjgocpleb
-# Web Vitals
-https://chrome.google.com/webstore/detail/ahfhijdlegdabablpippeagghigmibma 
-# Wix Insiders
-https://chrome.google.com/webstore/detail/aofifmijnohoiikidmmhdohgjipaflak 
+```sh 
 # Vimium
 https://chrome.google.com/webstore/detail/dbepggeogbaibhgnhhndojpepiihcmeb 
+
+# Viewer devtools
+https://chrome.google.com/webstore/detail/aahcojdfiikihlpfamimldmionifllkl
+# Wix Insiders
+https://chrome.google.com/webstore/detail/aofifmijnohoiikidmmhdohgjipaflak 
 # iWix Extension
-https://chrome.google.com/webstore/detail/ejfdniofoaeobdncklagejfcnfajnpgc 
-# X-Seen-By
-https://chrome.google.com/webstore/detail/fgbigkhiiddfchdehilplnapalobfjei
+https://chrome.google.com/webstore/detail/ejfdniofoaeobdncklagejfcnfajnpgc
 # Wix Statics Override
 https://chrome.google.com/webstore/detail/fhaehbcdbkccakpjgokgppjkggkmkmbl 
-# React Developer Tools
-https://chrome.google.com/webstore/detail/fmkadmapgofadopljbjfkapdkoienihi 
-# EditThisCookie
-https://chrome.google.com/webstore/detail/fngmhnnpilhplaeedifhccceomclgfbg 
-# JSON Viewer
-https://chrome.google.com/webstore/detail/gbmdgpbipfallnflgajpaliibnhdgobh
-# Google Docs Offline
-https://chrome.google.com/webstore/detail/ghbmnnjooekpmoecnnnilnnbdlolhkhi
-# Node.js V8 --inspector Manager (NiM)
-https://chrome.google.com/webstore/detail/gnhhdgbaldcilmgcpfddgdbkhjohddkj 
-# Refined GitHub
-https://chrome.google.com/webstore/detail/hlepfoohegkhhmjieoechaddaejaokhf
 # Wix Petri Sidekick
 https://chrome.google.com/webstore/detail/hpdjckcenihbjfmaccadiaighajcjope
-# OctoLinker
-https://chrome.google.com/webstore/detail/jlmafbaeoofdegohdhinkhilhclaklkp 
 # WIX BI Monitor
 https://chrome.google.com/webstore/detail/kpdeoodecbpgceddpmamibmgbbojjhjm
+
+# Node.js V8 --inspector Manager (NiM)
+https://chrome.google.com/webstore/detail/gnhhdgbaldcilmgcpfddgdbkhjohddkj 
 # Redux DevTools
 https://chrome.google.com/webstore/detail/lmhkpmbekcpmknklioeibfkpmmfibljd
+# React Developer Tools
+https://chrome.google.com/webstore/detail/fmkadmapgofadopljbjfkapdkoienihi
+
+# X-Seen-By
+https://chrome.google.com/webstore/detail/fgbigkhiiddfchdehilplnapalobfjei
 # Url Editor PRO
 https://chrome.google.com/webstore/detail/maoigfcibanjdgnepaiiadjhgmejclea
 # Requestly
 https://chrome.google.com/webstore/detail/mdnleldcmiljblolnjhpnblkcekpdkpa
-# Better Pull Request for GitHub
-https://chrome.google.com/webstore/detail/nfhdjopbhlggibjlimhdbogflgmbiahc
 # Proxy SwitchyOmega
 https://chrome.google.com/webstore/detail/padekgcemlokbadohgkifijomclgjgif
+# EditThisCookie
+https://chrome.google.com/webstore/detail/fngmhnnpilhplaeedifhccceomclgfbg 
+# JSON Viewer
+https://chrome.google.com/webstore/detail/gbmdgpbipfallnflgajpaliibnhdgobh
+
+# Better Pull Request for GitHub
+https://chrome.google.com/webstore/detail/nfhdjopbhlggibjlimhdbogflgmbiahc
+# Refined GitHub
+https://chrome.google.com/webstore/detail/hlepfoohegkhhmjieoechaddaejaokhf
+# OctoLinker
+https://chrome.google.com/webstore/detail/jlmafbaeoofdegohdhinkhilhclaklkp 
+
+# Web Vitals
+https://chrome.google.com/webstore/detail/ahfhijdlegdabablpippeagghigmibma 
 ```
