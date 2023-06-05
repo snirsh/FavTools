@@ -12,12 +12,11 @@ xcode-select --install
 ```
 
 ### Terminal
-<b>Iterm settings:</b>
-Hotkey
-Perferences -> Keys -> Hotkey
-
-Native key mappings
-Perferences -> Profile -> Keys -> Key Mappings -> Presets... -> Native
+<b>Iterm settings:</b><br/>
+Hotkey<br/>
+Perferences -> Keys -> Hotkey<br/><br/>
+Native key mappings<br/>
+Perferences -> Profile -> Keys -> Key Mappings -> Presets... -> Native<br/>
 
 ```sh
 # iterm2 - https://iterm2
