@@ -121,6 +121,7 @@ This repository contains a curated list of my favorite and recommended tools for
     ```
 
 ## Applications
+***Note:  💰 means that they're not free!***
 
 - **Chrome**
     ```sh
@@ -156,12 +157,13 @@ This repository contains a curated list of my favorite and recommended tools for
     ```sh
     brew install --cask maccy
     ```
-- **Paste** - If you prefer better clipboard manager for macOS (and costs money). [Official Website](https://pasteapp.io/)
+- 💰**Paste** - If you prefer better clipboard manager for macOS. [Official Website](https://pasteapp.io/)
 
 - **Raycast** - The macOS command line bar. It lets you control your tools with a few keystrokes and create your own script commands. [Official Website](https://raycast.com/)
     ```sh
     brew install --cask raycast
     ```
+- 💰**Fantastical** - A versatile and user-friendly calendar app for macOS, known for its ease of use and integration with various calendar services. [Official Website](https://flexibits.com/fantastical)
 
 - **Cheatsheet** - A simple tool for macOS that gives you access to shortcuts of the application you are using, just by holding the command key. [Official Website](https://www.mediaatelier.com/CheatSheet/)
     ```sh
