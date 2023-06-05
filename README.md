@@ -191,7 +191,9 @@ This repository contains a curated list of my favorite and recommended tools for
 
 
 ## Chrome Search Engines
+You can use my official [Annie-Bunny](https://github.com/snirsh-wix/annie-bunny)
 
+Or make your own! in [chrome://settings/searchEngines](Chrome Settings)
 - Backoffice
     ```sh
     https://bo.wix.com/?q=%s
