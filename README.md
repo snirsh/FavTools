@@ -8,6 +8,7 @@ This repository contains a curated list of my favorite and recommended tools for
 - [Terminal](#terminal)
 - [Themes](#themes)
 - [CLI Tools](#cli-tools)
+    - [Iterm specific settings](#iterm-settings)
 - [Applications](#applications)
 - [Chrome Extensions](#chrome-extensions)
 - [Chrome Search Engines](#chrome-search-engines)
