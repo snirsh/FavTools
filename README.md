@@ -153,8 +153,8 @@ https://chrome.google.com/webstore/detail/ahfhijdlegdabablpippeagghigmibma
 ```
 
 ### Chrome SearchEngines
-Either [https://github.com/snirsh-wix/annie-bunny](Annie-bunny)
-Or [chrome://searchEngines](Chrome custom search engine settings):
+Either [Annie-bunny](https://github.com/snirsh-wix/annie-bunny)
+Or [Chrome custom search engine settings](chrome://searchEngines):
 ```sh
 # Backoffice
 https://bo.wix.com/?q=%s
