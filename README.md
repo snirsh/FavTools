@@ -57,9 +57,6 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 # fx - https://github.com/antonmedv/fx
 brew install fx
 
-# fd - https://github.com/sharkdp/fd
-brew install fd
-
 # lvim - https://www.lunarvim.org/docs/installation
 LV_BRANCH='release-1.3/neovim-0.9' bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/release-1.3/neovim-0.9/utils/installer/install.sh)
 
