@@ -153,4 +153,15 @@ https://chrome.google.com/webstore/detail/ahfhijdlegdabablpippeagghigmibma
 ```
 
 ### Chrome SearchEngines
+Either [https://github.com/snirsh-wix/annie-bunny](Annie-bunny)
+Or [chrome://searchEngines](Chrome custom search engine settings):
+```sh
+# Backoffice
+https://bo.wix.com/?q=%s
 
+# Wix-life
+https://www.wix-life.com/search?q=%s
+
+# GitHub wix-private
+https://github.com/search?q=%s+org%3Awix-private
+```
