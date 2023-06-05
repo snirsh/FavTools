@@ -1,4 +1,4 @@
-## Table of Contents
+# Table of Contents
 
 - [FavTools](#favtools)
   - [Dev Tools](#dev-tools)
@@ -14,7 +14,7 @@
 # FavTools
 This repo has all my favorite and recommended tools for Mac
 
-### Dev Tools
+## Dev Tools
 
 ```sh
 # xcode - https://mac.install.guide/commandlinetools/index.html
@@ -24,7 +24,7 @@ xcode-select --install
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-### Terminal
+## Terminal
 ```sh
 # iterm2 - https://iterm2
 brew install iterm2 --cask
@@ -38,13 +38,14 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 # warp - https://www.warp.dev/ 
 brew install --cask warp
 ```
-<b>Iterm settings:</b><br/>
+
+### Iterm settings:
 Hotkey<br/>
 Perferences -> Keys -> Hotkey<br/><br/>
 Native key mappings<br/>
 Perferences -> Profile -> Keys -> Key Mappings -> Presets... -> Native<br/>
 
-### Themes
+## Themes
 
 ```sh
 # powerlvl10k - https://github.com/romkatv/powerlevel10k
@@ -52,7 +53,7 @@ brew install romkatv/powerlevel10k/powerlevel10k
 echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
 ```
 
-### CLI Tools
+## CLI Tools
 ```sh
 # tig - https://github.com/jonas/tig
 brew install tig
@@ -84,7 +85,7 @@ brew install exa
 alias ls="exa"
 ```
 
-### Applications
+## Applications
 
 ```sh
 # chrome
@@ -115,7 +116,7 @@ brew install --cask raycast
 brew install --cask cheatsheet
 ```
 
-### Chrome Extensions
+## Chrome Extensions
 
 ```sh 
 # Vimium
@@ -165,7 +166,7 @@ https://chrome.google.com/webstore/detail/jlmafbaeoofdegohdhinkhilhclaklkp
 https://chrome.google.com/webstore/detail/ahfhijdlegdabablpippeagghigmibma 
 ```
 
-### Chrome SearchEngines
+## Chrome SearchEngines
 Either [Annie-bunny](https://github.com/snirsh-wix/annie-bunny)<br/>
 Or chrome://searchEngines
 ```sh
@@ -179,7 +180,7 @@ https://www.wix-life.com/search?q=%s
 https://github.com/search?q=%s+org%3Awix-private
 ```
 
-### Git aliases
+## Git aliases
 ```sh
  [alias]
      masterbase = !git fetch && git rebase origin/master && git push --force-with-lease
