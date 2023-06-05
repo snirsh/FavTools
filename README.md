@@ -153,7 +153,7 @@ https://chrome.google.com/webstore/detail/ahfhijdlegdabablpippeagghigmibma
 ```
 
 ### Chrome SearchEngines
-Either [Annie-bunny](https://github.com/snirsh-wix/annie-bunny)
+Either [Annie-bunny](https://github.com/snirsh-wix/annie-bunny)<br/>
 Or [Chrome custom search engine settings](chrome://searchEngines):
 ```sh
 # Backoffice
@@ -165,3 +165,15 @@ https://www.wix-life.com/search?q=%s
 # GitHub wix-private
 https://github.com/search?q=%s+org%3Awix-private
 ```
+
+### Git aliases
+```sh
+ [alias]
+     masterbase = !git fetch && git rebase origin/master && git push --force-with-lease
+     lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+     co = checkout
+     unstage = reset HEAD
+     graph = log --all --graph --decorate --oneline
+     undo = reset HEAD~1
+     yarnshmock = "!f() { git checkout origin/master -- yarn.lock && yarn && git add yarn.lock && git commit -m 'Resolve yarn.lock conflict by accepting master branch version and running yarn' && git push;}; f"
+ ```
