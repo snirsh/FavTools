@@ -154,7 +154,7 @@ https://chrome.google.com/webstore/detail/ahfhijdlegdabablpippeagghigmibma
 
 ### Chrome SearchEngines
 Either [Annie-bunny](https://github.com/snirsh-wix/annie-bunny)<br/>
-Or [Chrome](chrome://searchEngines):
+Or [chrome://searchengines]
 ```sh
 # Backoffice
 https://bo.wix.com/?q=%s
