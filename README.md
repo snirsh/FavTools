@@ -114,6 +114,11 @@ This repository contains a curated list of my favorite and recommended tools for
     brew install exa
     alias ls="exa"
     ```
+- **thefuck** - A tool that corrects errors in previous console commands. [GitHub](https://github.com/nvbn/thefuck)
+    ```sh
+    brew install thefuck
+    alias fuck="thefuck"
+    ```
 
 ## Applications
 
