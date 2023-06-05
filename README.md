@@ -12,12 +12,6 @@ xcode-select --install
 ```
 
 ### Terminal
-<b>Iterm settings:</b><br/>
-Hotkey<br/>
-Perferences -> Keys -> Hotkey<br/><br/>
-Native key mappings<br/>
-Perferences -> Profile -> Keys -> Key Mappings -> Presets... -> Native<br/>
-
 ```sh
 # iterm2 - https://iterm2
 brew install iterm2 --cask
@@ -31,6 +25,11 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 # warp - https://www.warp.dev/ 
 brew install --cask warp
 ```
+<b>Iterm settings:</b><br/>
+Hotkey<br/>
+Perferences -> Keys -> Hotkey<br/><br/>
+Native key mappings<br/>
+Perferences -> Profile -> Keys -> Key Mappings -> Presets... -> Native<br/>
 
 ### Themes
 
