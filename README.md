@@ -97,9 +97,6 @@ brew install meetingbar
 # spotify - https://www.spotify.com/
 brew install --cask spotify
 
-# vlc - https://www.videolan.org/
-brew install --cask vlc
-
 # maccy - clipboard manager https://maccy.app/
 brew install --cask maccy
 
