@@ -1,4 +1,4 @@
-# FavTools
+# Favorite DevTools - FavTools
 
 This repository contains a curated list of my favorite and recommended tools for macOS. It includes software for development, terminal emulators, themes, CLI tools, applications, Chrome extensions, search engines, and Git aliases.
 
