@@ -20,29 +20,29 @@ This repository contains a curated list of my favorite and recommended tools for
     xcode-select --install
     ```
 
-- brew - [Official Website](https://brew.sh/)
+- brew - The missing package manager for macOS (or Linux), used to install, update and uninstall software. [Official Website](https://brew.sh/)
     ```sh
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     ```
 
 ## Terminal
 
-- iterm2 - [Official Website](https://iterm2.com)
+- iterm2 - An open-source replacement for Apple's Terminal. It's highly customizable and comes with a lot of useful features. [Official Website](https://iterm2.com)
     ```sh
     brew install --cask iterm2
     ```
-  
-- zsh - [Official Website](https://www.zsh.org/)
+
+- zsh - An extended Bourne shell with a large number of improvements, including some features of Bash, ksh, and tcsh. [Official Website](https://www.zsh.org/)
     ```sh
     brew install zsh
     ```
 
-- Oh-my-zsh - [Official Website](https://ohmyz.sh/)
+- Oh-my-zsh - A community-driven and open-source framework for managing your ZSH configuration. It comes with a lot of helpful functions, helpers, plugins, and themes. [Official Website](https://ohmyz.sh/)
     ```sh
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
     ```
 
-- Warp - [Official Website](https://www.warp.dev/)
+- Warp - A blazingly fast, intuitive terminal specifically designed for developers. [Official Website](https://www.warp.dev/)
     ```sh
     brew install --cask warp
     ```
@@ -53,7 +53,7 @@ This repository contains a curated list of my favorite and recommended tools for
 
 ## Themes
 
-- Powerlvl10k - [GitHub](https://github.com/romkatv/powerlevel10k)
+- Powerlvl10k - A theme for Zsh. It emphasizes speed, flexibility, and out-of-the-box experience. [GitHub](https://github.com/romkatv/powerlevel10k)
     ```sh
     brew install romkatv/powerlevel10k/powerlevel10k
     echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
@@ -61,53 +61,54 @@ This repository contains a curated list of my favorite and recommended tools for
 
 ## CLI Tools
 
-- tig - [GitHub](https://github.com/jonas/tig)
+- tig - Text-mode interface for git. Tig is a git repository browser that additionally can act as a pager for output from various git commands. [GitHub](https://github.com/jonas/tig)
     ```sh
     brew install tig
     ```
 
-- tldr - [Official Website](https://tldr.sh/)
+- tldr - A collection of simplified and community-driven man pages. [Official Website](https://tldr.sh/)
     ```sh
     brew install tldr
     ```
 
-- fzf - [GitHub](https://github.com/junegunn/fzf)
+- fzf - A general-purpose command-line fuzzy finder. It's an interactive Unix filter for command-line that can be used with any list. [GitHub](https://github.com/junegunn/fzf)
     ```sh
     brew install fzf
     $(brew --prefix)/opt/fzf/install
     ```
 
-- Z - [GitHub](https://github.com/agkozak/zsh-z)
+- Z - Jump around. Tracks your most used directories, based on 'frecency'. [GitHub](https://github.com/agkozak/zsh-z)
     ```sh
     git clone https://github.com/agkozak/zsh-z $ZSH_CUSTOM/plugins/zsh-z
     ```
 
-- zsh-autosuggestions - [GitHub](https://github.com/zsh-users/zsh-autosuggestions)
+- zsh-autosuggestions - Fish-like fast/unobtrusive autosuggestions for zsh. It suggests commands as you type, based on command history. [GitHub](https://github.com/zsh-users/zsh-autosuggestions)
     ```sh
     git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
     ```
-- zsh-syntax-highlighting - [GitHub]()
-  ```
+
+- zsh-syntax-highlighting - Provides syntax highlighting for the shell zsh. It enables highlighting of commands whilst they are typed at a zsh prompt into an interactive terminal. [GitHub](https://github.com/zsh-users/zsh-syntax-highlighting)
+    ```sh
     git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
     echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
-  ```
-  
-- fx - [GitHub](https://github.com/antonmedv/fx)
+    ```
+
+- fx - Command-line JSON processing tool. [GitHub](https://github.com/antonmedv/fx)
     ```sh
     brew install fx
     ```
 
-- Lvim - [Official Website](https://www.lunarvim.org/docs/installation)
+- Lvim - LunarVim is a distribution of neovim crafted to ensure you are working in a moon-like development environment. [Official Website](https://www.lunarvim.org/docs/installation)
     ```sh
     LV_BRANCH='release-1.3/neovim-0.9' bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/release-1.3/neovim-0.9/utils/installer/install.sh)
     ```
 
-- bat - [GitHub](https://github.com/sharkdp/bat)
+- bat - A cat clone with syntax highlighting and git integration. [GitHub](https://github.com/sharkdp/bat)
     ```sh
     brew install bat
     ```
 
-- exa - [Official Website](https://the.exa.website/)
+- exa - A modern replacement for 'ls'. Exa is a modern replacement for the command-line program ls that ships with Unix and Linux operating systems, with more features and better defaults. [Official Website](https://the.exa.website/)
     ```sh
     brew install exa
     alias ls="exa"
@@ -120,22 +121,22 @@ This repository contains a curated list of my favorite and recommended tools for
     brew install --cask google-chrome
     ```
 
-- Jetbrains toolbox
+- Jetbrains toolbox - Helps to manage and keep JetBrains IDEs up to date. Provides a simple and convenient way to keep track of all your IDE projects and applications. 
     ```sh
     brew install --cask jetbrains-toolbox
     ```
 
-- VSCode - [Official Website](https://code.visualstudio.com/)
+- VSCode - A freeware source-code editor made by Microsoft for Windows, Linux and macOS. Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded Git. [Official Website](https://code.visualstudio.com/)
     ```sh
     brew install --cask visual-studio-code
     ```
 
-- Rectangle - [Official Website](https://rectangleapp.com/)
+- Rectangle - A window management application for MacOS. It allows the user to quickly and easily manage their windows, without the need for complex and time consuming dragging. [Official Website](https://rectangleapp.com/)
     ```sh
     brew install --cask rectangle
     ```
 
-- Meetingbar - [GitHub](https://github.com/leits/MeetingBar)
+- Meetingbar - A macOS menu bar app for your calendar meetings (Google, Outlook, Zoom, MS Teams, Webex, Jitsi, RingCentral, Hangouts, Telephone, Lark, etc). Quickly join meetings from event or create ad hoc meeting. [GitHub](https://github.com/leits/MeetingBar)
     ```sh
     brew install --cask meetingbar
     ```
@@ -145,21 +146,23 @@ This repository contains a curated list of my favorite and recommended tools for
     brew install --cask spotify
     ```
 
-- Maccy - Clipboard Manager [Official Website](https://maccy.app/)
+- Maccy - A lightweight clipboard manager for macOS. It keeps your copy history at hand, so you don't have to worry about losing any copied data. [Official Website](https://maccy.app/)
     ```sh
     brew install --cask maccy
     ```
 
-- Raycast - [Official Website](https://raycast.com/)
+- Raycast - The macOS command line bar. It lets you control your tools with a few keystrokes and create your own script commands. [Official Website](https://raycast.com/)
     ```sh
     brew install --cask raycast
     ```
 
-- Cheatsheet - [Official Website](https://www.mediaatelier.com/CheatSheet/)
+- Cheatsheet - A simple tool for macOS that gives you access to shortcuts of the application you are using, just by holding the command key. [Official Website](https://www.mediaatelier.com/CheatSheet/)
     ```sh
     brew install --cask cheatsheet
     ```
-- Amphetamine - [Official App Store page](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12)
+
+- Amphetamine - An app for macOS that keeps your machine awake for a configurable amount of time. Perfect for when you're reading, working, or doing a presentation. [Official App Store page](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12)
+
 
 ## Chrome Extensions
 
