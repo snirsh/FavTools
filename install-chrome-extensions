@@ -1,0 +1,39 @@
+#!/bin/bash
+
+install_chrome_extension () {
+  preferences_dir_path="/opt/google/chrome/extensions"
+  pref_file_path="$preferences_dir_path/$1.json"
+  upd_url="https://clients2.google.com/service/update2/crx"
+  mkdir -p "$preferences_dir_path"
+  echo "{" > "$pref_file_path"
+  echo "  \"external_update_url\": \"$upd_url\"" >> "$pref_file_path"
+  echo "}" >> "$pref_file_path"
+  echo Added \""$pref_file_path"\" ["$2"]
+}
+
+if ! which "google-chrome" ; then
+  wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub \
+  | sudo apt-key add -
+  echo 'deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main' \
+  | sudo tee /etc/apt/sources.list.d/google-chrome.list
+  sudo apt-get update
+  sudo apt install google-chrome-stable
+else
+  echo Chrome already installed
+fi
+
+install_chrome_extension "fngmhnnpilhplaeedifhccceomclgfbg" "editthiscookie"
+install_chrome_extension "ejfdniofoaeobdncklagejfcnfajnpgc" "iwix"
+install_chrome_extension "dbepggeogbaibhgnhhndojpepiihcmeb" "vimium"
+install_chrome_extension "gbmdgpbipfallnflgajpaliibnhdgobh" "jsonviewer"
+install_chrome_extension "padekgcemlokbadohgkifijomclgjgif" "switchyomega"
+install_chrome_extension "mdnleldcmiljblolnjhpnblkcekpdkpa" "reqiestly"
+install_chrome_extension "maoigfcibanjdgnepaiiadjhgmejclea" "urleditor"
+install_chrome_extension "maoigfcibanjdgnepaiiadjhgmejclea" "urleditor"
+install_chrome_extension "aahcojdfiikihlpfamimldmionifllkl" "viewer-tools"
+install_chrome_extension "kpdeoodecbpgceddpmamibmgbbojjhjm" "wixbi"
+install_chrome_extension "aofifmijnohoiikidmmhdohgjipaflak" "wixinsider"
+install_chrome_extension "hpdjckcenihbjfmaccadiaighajcjope" "petri"
+install_chrome_extension "fhaehbcdbkccakpjgokgppjkggkmkmbl" "statics-override"
+install_chrome_extension "fgbigkhiiddfchdehilplnapalobfjei" "xseenby"
+
