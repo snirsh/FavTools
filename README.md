@@ -18,18 +18,14 @@ xcode-select --install
 # iterm2 - https://iterm2
 brew install iterm2 --cask
 
-# warp - https://www.warp.dev/ 
-brew install --cask warp
-
 # zsh - https://www.zsh.org/
 brew install zsh
 
 # oh-my-zsh - https://ohmyz.sh/
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-# starship shell - https://starship.rs/
-brew install starship
-
+# warp - https://www.warp.dev/ 
+brew install --cask warp
 ```
 
 ### Themes
