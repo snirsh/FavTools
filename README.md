@@ -74,6 +74,9 @@ alias ls="exa"
 ### Applications
 
 ```sh
+# chrome
+brew install --cask google-chrome
+
 # jetbrains toolbox
 brew install --cask jetbrains-toolbox
 
