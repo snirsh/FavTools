@@ -98,3 +98,36 @@ brew install --cask maccy
 # raycast - https://raycast.com/
 brew install --cask raycast
 ```
+
+### Chrome Extensions
+
+```sh
+aahcojdfiikihlpfamimldmionifllkl : Viewer devtools : version 2_0_4
+ahfgeienlihckogmohjhadlkjgocpleb : Web Store : version 0_2
+ahfhijdlegdabablpippeagghigmibma : Web Vitals : version 1_2_2
+aofifmijnohoiikidmmhdohgjipaflak : Wix Insiders : version 0_0_61
+dbepggeogbaibhgnhhndojpepiihcmeb : Vimium : version 1_67_4
+ejfdniofoaeobdncklagejfcnfajnpgc : iWix Extension : version 1_10_28
+fgbigkhiiddfchdehilplnapalobfjei : X-Seen-By : version 1_0_1
+fhaehbcdbkccakpjgokgppjkggkmkmbl : Wix Statics Override : version 1_3_11
+fmkadmapgofadopljbjfkapdkoienihi : React Developer Tools : version 4_27_8
+fngmhnnpilhplaeedifhccceomclgfbg : EditThisCookie : version 1_6_3
+gbmdgpbipfallnflgajpaliibnhdgobh : JSON Viewer : version 0_18_1
+ghbmnnjooekpmoecnnnilnnbdlolhkhi : Google Docs Offline : version 1_62_0
+gnhhdgbaldcilmgcpfddgdbkhjohddkj : Node.js V8 --inspector Manager (NiM) : version 2_8_1
+hlepfoohegkhhmjieoechaddaejaokhf : Refined GitHub : version 23_6_2
+hpdjckcenihbjfmaccadiaighajcjope : Wix Petri Sidekick : version 1_0_34
+ipbomkmbokofodhhjpipflmdplipblbe : Advent of Code Charts : version 6_1_0
+jgjaeacdkonaoafenlfkkkmbaopkbilf : ChatGPT for Google : version 3_0_4
+jlmafbaeoofdegohdhinkhilhclaklkp : OctoLinker : version 6_10_5
+kpdeoodecbpgceddpmamibmgbbojjhjm : WIX BI Monitor : version 1_1_0
+lmhkpmbekcpmknklioeibfkpmmfibljd : Redux DevTools : version 3_0_19
+maoigfcibanjdgnepaiiadjhgmejclea : Url Editor PRO : version 0_9_4_2
+mdnleldcmiljblolnjhpnblkcekpdkpa : Requestly: Open Source HTTPs Debugging Proxy : version 23_5_19
+mhjfbmdgcfjbbpaeojofohoefgiehjai : Chrome PDF Viewer : version 1
+neajdppkdcdipfabeoofebfddakdcjhd : Google Network Speech : version 1_0
+nfhdjopbhlggibjlimhdbogflgmbiahc : Better Pull Request for GitHub : version 1_0_37
+nkeimhogjdpnpccoofpliimaahmaaome : Google Hangouts : version 1_3_21
+nmmhkkegccagdldgiimedpiccmgmieda : Chrome Web Store Payments : version 1_0_0_6
+padekgcemlokbadohgkifijomclgjgif : Proxy SwitchyOmega : version 2_5_21
+```
