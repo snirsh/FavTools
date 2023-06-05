@@ -39,11 +39,11 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 brew install --cask warp
 ```
 
-### Iterm settings:
-Hotkey<br/>
-Perferences -> Keys -> Hotkey<br/><br/>
-Native key mappings<br/>
-Perferences -> Profile -> Keys -> Key Mappings -> Presets... -> Native<br/>
+#### Iterm settings:
+1. **Hotkey**
+   - Go to Perferences -> Keys -> Hotkey
+2. **Native key mappings**
+   - Go to Perferences -> Profile -> Keys -> Key Mappings -> Presets... -> Native
 
 ## Themes
 
