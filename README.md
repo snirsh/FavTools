@@ -1,3 +1,16 @@
+## Table of Contents
+
+- [FavTools](#favtools)
+  - [Dev Tools](#dev-tools)
+  - [Terminal](#terminal)
+    - [iTerm settings](#iterm-settings)
+  - [Themes](#themes)
+  - [CLI Tools](#cli-tools)
+  - [Applications](#applications)
+  - [Chrome Extensions](#chrome-extensions)
+  - [Chrome Search Engines](#chrome-searchengines)
+  - [Git Aliases](#git-aliases)
+
 # FavTools
 This repo has all my favorite and recommended tools for Mac
 
