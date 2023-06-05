@@ -216,8 +216,6 @@ Or make your own! in chrome://settings/searchEngines
  [alias]
      masterbase = !git fetch && git rebase origin/master && git push --force-with-lease
      lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-     co = checkout
-     unstage = reset HEAD
      graph = log --all --graph --decorate --oneline
      undo = reset HEAD~1
      yarnshmock = "!f() { git checkout origin/master -- yarn.lock && yarn && git add yarn.lock && git commit -m 'Resolve yarn.lock conflict by accepting master branch version and running yarn' && git push;}; f"
