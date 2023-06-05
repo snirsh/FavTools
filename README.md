@@ -12,7 +12,7 @@ xcode-select --install
 ```
 
 ### Terminal
-
+Don't forget to set the native usage
 
 ```sh
 # iterm2 - https://iterm2
@@ -94,6 +94,9 @@ brew install --cask maccy
 
 # raycast - https://raycast.com/
 brew install --cask raycast
+
+# cheatsheet - https://www.mediaatelier.com/CheatSheet/
+brew install --cask cheatsheet
 ```
 
 ### Chrome Extensions
@@ -145,3 +148,6 @@ https://chrome.google.com/webstore/detail/jlmafbaeoofdegohdhinkhilhclaklkp
 # Web Vitals
 https://chrome.google.com/webstore/detail/ahfhijdlegdabablpippeagghigmibma 
 ```
+
+### Chrome SearchEngines
+
