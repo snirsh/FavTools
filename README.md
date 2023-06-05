@@ -156,6 +156,7 @@ This repository contains a curated list of my favorite and recommended tools for
     ```sh
     brew install --cask maccy
     ```
+- **Paste** - If you prefer better clipboard manager for macOS (and costs money). [Official Website](https://pasteapp.io/)
 
 - **Raycast** - The macOS command line bar. It lets you control your tools with a few keystrokes and create your own script commands. [Official Website](https://raycast.com/)
     ```sh
