@@ -102,32 +102,48 @@ brew install --cask raycast
 ### Chrome Extensions
 
 ```sh
-aahcojdfiikihlpfamimldmionifllkl : Viewer devtools : version 2_0_4
-ahfgeienlihckogmohjhadlkjgocpleb : Web Store : version 0_2
-ahfhijdlegdabablpippeagghigmibma : Web Vitals : version 1_2_2
-aofifmijnohoiikidmmhdohgjipaflak : Wix Insiders : version 0_0_61
-dbepggeogbaibhgnhhndojpepiihcmeb : Vimium : version 1_67_4
-ejfdniofoaeobdncklagejfcnfajnpgc : iWix Extension : version 1_10_28
-fgbigkhiiddfchdehilplnapalobfjei : X-Seen-By : version 1_0_1
-fhaehbcdbkccakpjgokgppjkggkmkmbl : Wix Statics Override : version 1_3_11
-fmkadmapgofadopljbjfkapdkoienihi : React Developer Tools : version 4_27_8
-fngmhnnpilhplaeedifhccceomclgfbg : EditThisCookie : version 1_6_3
-gbmdgpbipfallnflgajpaliibnhdgobh : JSON Viewer : version 0_18_1
-ghbmnnjooekpmoecnnnilnnbdlolhkhi : Google Docs Offline : version 1_62_0
-gnhhdgbaldcilmgcpfddgdbkhjohddkj : Node.js V8 --inspector Manager (NiM) : version 2_8_1
-hlepfoohegkhhmjieoechaddaejaokhf : Refined GitHub : version 23_6_2
-hpdjckcenihbjfmaccadiaighajcjope : Wix Petri Sidekick : version 1_0_34
-ipbomkmbokofodhhjpipflmdplipblbe : Advent of Code Charts : version 6_1_0
-jgjaeacdkonaoafenlfkkkmbaopkbilf : ChatGPT for Google : version 3_0_4
-jlmafbaeoofdegohdhinkhilhclaklkp : OctoLinker : version 6_10_5
-kpdeoodecbpgceddpmamibmgbbojjhjm : WIX BI Monitor : version 1_1_0
-lmhkpmbekcpmknklioeibfkpmmfibljd : Redux DevTools : version 3_0_19
-maoigfcibanjdgnepaiiadjhgmejclea : Url Editor PRO : version 0_9_4_2
-mdnleldcmiljblolnjhpnblkcekpdkpa : Requestly: Open Source HTTPs Debugging Proxy : version 23_5_19
-mhjfbmdgcfjbbpaeojofohoefgiehjai : Chrome PDF Viewer : version 1
-neajdppkdcdipfabeoofebfddakdcjhd : Google Network Speech : version 1_0
-nfhdjopbhlggibjlimhdbogflgmbiahc : Better Pull Request for GitHub : version 1_0_37
-nkeimhogjdpnpccoofpliimaahmaaome : Google Hangouts : version 1_3_21
-nmmhkkegccagdldgiimedpiccmgmieda : Chrome Web Store Payments : version 1_0_0_6
-padekgcemlokbadohgkifijomclgjgif : Proxy SwitchyOmega : version 2_5_21
+# Viewer devtools
+https://chrome.google.com/webstore/detail/aahcojdfiikihlpfamimldmionifllkl
+# Web Store
+https://chrome.google.com/webstore/detail/ahfgeienlihckogmohjhadlkjgocpleb
+# Web Vitals
+https://chrome.google.com/webstore/detail/ahfhijdlegdabablpippeagghigmibma 
+# Wix Insiders
+https://chrome.google.com/webstore/detail/aofifmijnohoiikidmmhdohgjipaflak 
+# Vimium
+https://chrome.google.com/webstore/detail/dbepggeogbaibhgnhhndojpepiihcmeb 
+# iWix Extension
+https://chrome.google.com/webstore/detail/ejfdniofoaeobdncklagejfcnfajnpgc 
+# X-Seen-By
+https://chrome.google.com/webstore/detail/fgbigkhiiddfchdehilplnapalobfjei
+# Wix Statics Override
+https://chrome.google.com/webstore/detail/fhaehbcdbkccakpjgokgppjkggkmkmbl 
+# React Developer Tools
+https://chrome.google.com/webstore/detail/fmkadmapgofadopljbjfkapdkoienihi 
+# EditThisCookie
+https://chrome.google.com/webstore/detail/fngmhnnpilhplaeedifhccceomclgfbg 
+# JSON Viewer
+https://chrome.google.com/webstore/detail/gbmdgpbipfallnflgajpaliibnhdgobh
+# Google Docs Offline
+https://chrome.google.com/webstore/detail/ghbmnnjooekpmoecnnnilnnbdlolhkhi
+# Node.js V8 --inspector Manager (NiM)
+https://chrome.google.com/webstore/detail/gnhhdgbaldcilmgcpfddgdbkhjohddkj 
+# Refined GitHub
+https://chrome.google.com/webstore/detail/hlepfoohegkhhmjieoechaddaejaokhf
+# Wix Petri Sidekick
+https://chrome.google.com/webstore/detail/hpdjckcenihbjfmaccadiaighajcjope
+# OctoLinker
+https://chrome.google.com/webstore/detail/jlmafbaeoofdegohdhinkhilhclaklkp 
+# WIX BI Monitor
+https://chrome.google.com/webstore/detail/kpdeoodecbpgceddpmamibmgbbojjhjm
+# Redux DevTools
+https://chrome.google.com/webstore/detail/lmhkpmbekcpmknklioeibfkpmmfibljd
+# Url Editor PRO
+https://chrome.google.com/webstore/detail/maoigfcibanjdgnepaiiadjhgmejclea
+# Requestly
+https://chrome.google.com/webstore/detail/mdnleldcmiljblolnjhpnblkcekpdkpa
+# Better Pull Request for GitHub
+https://chrome.google.com/webstore/detail/nfhdjopbhlggibjlimhdbogflgmbiahc
+# Proxy SwitchyOmega
+https://chrome.google.com/webstore/detail/padekgcemlokbadohgkifijomclgjgif
 ```
