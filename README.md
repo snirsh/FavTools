@@ -1,186 +1,211 @@
-# Table of Contents
-
-- [FavTools](#favtools)
-  - [Dev Tools](#dev-tools)
-  - [Terminal](#terminal)
-    - [iTerm settings](#iterm-settings)
-  - [Themes](#themes)
-  - [CLI Tools](#cli-tools)
-  - [Applications](#applications)
-  - [Chrome Extensions](#chrome-extensions)
-  - [Chrome Search Engines](#chrome-searchengines)
-  - [Git Aliases](#git-aliases)
-
 # FavTools
-This repo has all my favorite and recommended tools for Mac
+
+This repository contains a curated list of my favorite and recommended tools for macOS. It includes software for development, terminal emulators, themes, CLI tools, applications, Chrome extensions, search engines, and Git aliases.
+
+## Table of Contents
+
+- [Dev Tools](#dev-tools)
+- [Terminal](#terminal)
+- [Themes](#themes)
+- [CLI Tools](#cli-tools)
+- [Applications](#applications)
+- [Chrome Extensions](#chrome-extensions)
+- [Chrome Search Engines](#chrome-search-engines)
+- [Git Aliases](#git-aliases)
 
 ## Dev Tools
 
-```sh
-# xcode - https://mac.install.guide/commandlinetools/index.html
-xcode-select --install
+- Xcode - [Installation Guide](https://mac.install.guide/commandlinetools/index.html)
+    ```sh
+    xcode-select --install
+    ```
 
-# brew - https://brew.sh/
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
+- brew - [Official Website](https://brew.sh/)
+    ```sh
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    ```
 
 ## Terminal
-```sh
-# iterm2 - https://iterm2
-brew install iterm2 --cask
 
-# zsh - https://www.zsh.org/
-brew install zsh
+- iterm2 - [Official Website](https://iterm2.com)
+    ```sh
+    brew install --cask iterm2
+    ```
+  
+- zsh - [Official Website](https://www.zsh.org/)
+    ```sh
+    brew install zsh
+    ```
 
-# oh-my-zsh - https://ohmyz.sh/
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+- Oh-my-zsh - [Official Website](https://ohmyz.sh/)
+    ```sh
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+    ```
 
-# warp - https://www.warp.dev/ 
-brew install --cask warp
-```
+- Warp - [Official Website](https://www.warp.dev/)
+    ```sh
+    brew install --cask warp
+    ```
 
-#### Iterm settings:
-1. **Hotkey**
-   - Go to Perferences -> Keys -> Hotkey
-2. **Native key mappings**
-   - Go to Perferences -> Profile -> Keys -> Key Mappings -> Presets... -> Native
+### Iterm settings:
+- Hotkey: `Preferences -> Keys -> Hotkey`
+- Native key mappings: `Preferences -> Profile -> Keys -> Key Mappings -> Presets... -> Native`
 
 ## Themes
 
-```sh
-# powerlvl10k - https://github.com/romkatv/powerlevel10k
-brew install romkatv/powerlevel10k/powerlevel10k
-echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
-```
+- Powerlvl10k - [GitHub](https://github.com/romkatv/powerlevel10k)
+    ```sh
+    brew install romkatv/powerlevel10k/powerlevel10k
+    echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
+    ```
 
 ## CLI Tools
-```sh
-# tig - https://github.com/jonas/tig
-brew install tig
 
-# tldr - https://tldr.sh/
-brew install tldr
+- tig - [GitHub](https://github.com/jonas/tig)
+    ```sh
+    brew install tig
+    ```
 
-# fzf - https://github.com/junegunn/fzf
-brew install fzf
-$(brew --prefix)/opt/fzf/install
+- tldr - [Official Website](https://tldr.sh/)
+    ```sh
+    brew install tldr
+    ```
 
-# z - https://github.com/agkozak/zsh-z
-git clone https://github.com/agkozak/zsh-z $ZSH_CUSTOM/plugins/zsh-z
+- fzf - [GitHub](https://github.com/junegunn/fzf)
+    ```sh
+    brew install fzf
+    $(brew --prefix)/opt/fzf/install
+    ```
 
-# zsh-autosuggestions - https://github.com/zsh-users/zsh-autosuggestions
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+- Z - [GitHub](https://github.com/agkozak/zsh-z)
+    ```sh
+    git clone https://github.com/agkozak/zsh-z $ZSH_CUSTOM/plugins/zsh-z
+    ```
 
-# fx - https://github.com/antonmedv/fx
-brew install fx
+- zsh-autosuggestions - [GitHub](https://github.com/zsh-users/zsh-autosuggestions)
+    ```sh
+    git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+    ```
+- zsh-syntax-highlighting - [GitHub]()
+  ```
+    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+    echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+  ```
+  
+- fx - [GitHub](https://github.com/antonmedv/fx)
+    ```sh
+    brew install fx
+    ```
 
-# lvim - https://www.lunarvim.org/docs/installation
-LV_BRANCH='release-1.3/neovim-0.9' bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/release-1.3/neovim-0.9/utils/installer/install.sh)
+- Lvim - [Official Website](https://www.lunarvim.org/docs/installation)
+    ```sh
+    LV_BRANCH='release-1.3/neovim-0.9' bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/release-1.3/neovim-0.9/utils/installer/install.sh)
+    ```
 
-# bat - https://github.com/sharkdp/bat
-brew install bat
+- bat - [GitHub](https://github.com/sharkdp/bat)
+    ```sh
+    brew install bat
+    ```
 
-# exa - https://the.exa.website/
-brew install exa
-alias ls="exa"
-```
+- exa - [Official Website](https://the.exa.website/)
+    ```sh
+    brew install exa
+    alias ls="exa"
+    ```
 
 ## Applications
 
-```sh
-# chrome
-brew install --cask google-chrome
+- Chrome
+    ```sh
+    brew install --cask google-chrome
+    ```
 
-# jetbrains toolbox
-brew install --cask jetbrains-toolbox
+- Jetbrains toolbox
+    ```sh
+    brew install --cask jetbrains-toolbox
+    ```
 
-# vscode - https://code.visualstudio.com/
-brew install visual-studio-code --cask
+- VSCode - [Official Website](https://code.visualstudio.com/)
+    ```sh
+    brew install --cask visual-studio-code
+    ```
 
-# rectangle - https://rectangleapp.com/
-brew install --cask rectangle
+- Rectangle - [Official Website](https://rectangleapp.com/)
+    ```sh
+    brew install --cask rectangle
+    ```
 
-# meetingbar - https://github.com/leits/MeetingBar
-brew install meetingbar
+- Meetingbar - [GitHub](https://github.com/leits/MeetingBar)
+    ```sh
+    brew install --cask meetingbar
+    ```
 
-# spotify - https://www.spotify.com/
-brew install --cask spotify
+- Spotify - [Official Website](https://www.spotify.com/)
+    ```sh
+    brew install --cask spotify
+    ```
 
-# maccy - clipboard manager https://maccy.app/
-brew install --cask maccy
+- Maccy - Clipboard Manager [Official Website](https://maccy.app/)
+    ```sh
+    brew install --cask maccy
+    ```
 
-# raycast - https://raycast.com/
-brew install --cask raycast
+- Raycast - [Official Website](https://raycast.com/)
+    ```sh
+    brew install --cask raycast
+    ```
 
-# cheatsheet - https://www.mediaatelier.com/CheatSheet/
-brew install --cask cheatsheet
-```
+- Cheatsheet - [Official Website](https://www.mediaatelier.com/CheatSheet/)
+    ```sh
+    brew install --cask cheatsheet
+    ```
+- Amphetamine - [Official App Store page](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12)
 
 ## Chrome Extensions
 
-```sh 
-# Vimium
-https://chrome.google.com/webstore/detail/dbepggeogbaibhgnhhndojpepiihcmeb 
+| Extension Name                 | URL                                                            |
+|-------------------------------|----------------------------------------------------------------|
+| Vimium                        | [Link](https://chrome.google.com/webstore/detail/dbepggeogbaibhgnhhndojpepiihcmeb) |
+| Viewer Devtools               | [Link](https://chrome.google.com/webstore/detail/aahcojdfiikihlpfamimldmionifllkl) |
+| Wix Insiders                  | [Link](https://chrome.google.com/webstore/detail/aofifmijnohoiikidmmhdohgjipaflak) |
+| iWix Extension                | [Link](https://chrome.google.com/webstore/detail/ejfdniofoaeobdncklagejfcnfajnpgc) |
+| Wix Statics Override          | [Link](https://chrome.google.com/webstore/detail/fhaehbcdbkccakpjgokgppjkggkmkmbl) |
+| Wix Petri Sidekick            | [Link](https://chrome.google.com/webstore/detail/hpdjckcenihbjfmaccadiaighajcjope) |
+| WIX BI Monitor                | [Link](https://chrome.google.com/webstore/detail/kpdeoodecbpgceddpmamibmgbbojjhjm) |
+| Node.js V8 --inspector Manager (NiM) | [Link](https://chrome.google.com/webstore/detail/gnhhdgbaldcilmgcpfddgdbkhjohddkj) |
+| Redux DevTools                | [Link](https://chrome.google.com/webstore/detail/lmhkpmbekcpmknklioeibfkpmmfibljd) |
+| React Developer Tools         | [Link](https://chrome.google.com/webstore/detail/fmkadmapgofadopljbjfkapdkoienihi) |
+| X-Seen-By                    | [Link](https://chrome.google.com/webstore/detail/fgbigkhiiddfchdehilplnapalobfjei) |
+| Url Editor PRO                | [Link](https://chrome.google.com/webstore/detail/maoigfcibanjdgnepaiiadjhgmejclea) |
+| Requestly                    | [Link](https://chrome.google.com/webstore/detail/mdnleldcmiljblolnjhpnblkcekpdkpa) |
+| Proxy SwitchyOmega            | [Link](https://chrome.google.com/webstore/detail/padekgcemlokbadohgkifijomclgjgif) |
+| EditThisCookie                | [Link](https://chrome.google.com/webstore/detail/fngmhnnpilhplaeedifhccceomclgfbg) |
+| JSON Viewer                   | [Link](https://chrome.google.com/webstore/detail/gbmdgpbipfallnflgajpaliibnhdgobh) |
+| Better Pull Request for GitHub | [Link](https://chrome.google.com/webstore/detail/nfhdjopbhlggibjlimhdbogflgmbiahc) |
+| Refined GitHub                | [Link](https://chrome.google.com/webstore/detail/hlepfoohegkhhmjieoechaddaejaokhf) |
+| OctoLinker                    | [Link](https://chrome.google.com/webstore/detail/jlmafbaeoofdegohdhinkhilhclaklkp) |
+| Web Vitals                    | [Link](https://chrome.google.com/webstore/detail/ahfhijdlegdabablpippeagghigmibma) |
 
-# Viewer devtools
-https://chrome.google.com/webstore/detail/aahcojdfiikihlpfamimldmionifllkl
-# Wix Insiders
-https://chrome.google.com/webstore/detail/aofifmijnohoiikidmmhdohgjipaflak 
-# iWix Extension
-https://chrome.google.com/webstore/detail/ejfdniofoaeobdncklagejfcnfajnpgc
-# Wix Statics Override
-https://chrome.google.com/webstore/detail/fhaehbcdbkccakpjgokgppjkggkmkmbl 
-# Wix Petri Sidekick
-https://chrome.google.com/webstore/detail/hpdjckcenihbjfmaccadiaighajcjope
-# WIX BI Monitor
-https://chrome.google.com/webstore/detail/kpdeoodecbpgceddpmamibmgbbojjhjm
 
-# Node.js V8 --inspector Manager (NiM)
-https://chrome.google.com/webstore/detail/gnhhdgbaldcilmgcpfddgdbkhjohddkj 
-# Redux DevTools
-https://chrome.google.com/webstore/detail/lmhkpmbekcpmknklioeibfkpmmfibljd
-# React Developer Tools
-https://chrome.google.com/webstore/detail/fmkadmapgofadopljbjfkapdkoienihi
+## Chrome Search Engines
 
-# X-Seen-By
-https://chrome.google.com/webstore/detail/fgbigkhiiddfchdehilplnapalobfjei
-# Url Editor PRO
-https://chrome.google.com/webstore/detail/maoigfcibanjdgnepaiiadjhgmejclea
-# Requestly
-https://chrome.google.com/webstore/detail/mdnleldcmiljblolnjhpnblkcekpdkpa
-# Proxy SwitchyOmega
-https://chrome.google.com/webstore/detail/padekgcemlokbadohgkifijomclgjgif
-# EditThisCookie
-https://chrome.google.com/webstore/detail/fngmhnnpilhplaeedifhccceomclgfbg 
-# JSON Viewer
-https://chrome.google.com/webstore/detail/gbmdgpbipfallnflgajpaliibnhdgobh
+- Backoffice
+    ```sh
+    https://bo.wix.com/?q=%s
+    ```
 
-# Better Pull Request for GitHub
-https://chrome.google.com/webstore/detail/nfhdjopbhlggibjlimhdbogflgmbiahc
-# Refined GitHub
-https://chrome.google.com/webstore/detail/hlepfoohegkhhmjieoechaddaejaokhf
-# OctoLinker
-https://chrome.google.com/webstore/detail/jlmafbaeoofdegohdhinkhilhclaklkp 
+- Wix-life
+    ```sh
+    https://www.wix-life.com/search?q=%s
+    ```
 
-# Web Vitals
-https://chrome.google.com/webstore/detail/ahfhijdlegdabablpippeagghigmibma 
-```
+- GitHub wix-private
+    ```sh
+    https://github.com/search?q=%s+org%3Awix-private
+    ```
 
-## Chrome SearchEngines
-Either [Annie-bunny](https://github.com/snirsh-wix/annie-bunny)<br/>
-Or chrome://searchEngines
-```sh
-# Backoffice
-https://bo.wix.com/?q=%s
+## Git Aliases
 
-# Wix-life
-https://www.wix-life.com/search?q=%s
-
-# GitHub wix-private
-https://github.com/search?q=%s+org%3Awix-private
-```
-
-## Git aliases
 ```sh
  [alias]
      masterbase = !git fetch && git rebase origin/master && git push --force-with-lease
@@ -190,4 +215,3 @@ https://github.com/search?q=%s+org%3Awix-private
      graph = log --all --graph --decorate --oneline
      undo = reset HEAD~1
      yarnshmock = "!f() { git checkout origin/master -- yarn.lock && yarn && git add yarn.lock && git commit -m 'Resolve yarn.lock conflict by accepting master branch version and running yarn' && git push;}; f"
- ```
