@@ -171,6 +171,11 @@ This repository contains a curated list of my favorite and recommended tools for
     ```
 
 - **Amphetamine** - An app for macOS that keeps your machine awake for a configurable amount of time. Perfect for when you're reading, working, or doing a presentation. [Official App Store page](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12)
+- **CameraController** - Control your cameras settings without using the software provided (or not) by the company. [GitHub](https://github.com/Itaybre/CameraController)
+    ```sh
+    brew tap homebrew/cask-drivers
+    brew install --cask cameracontroller
+    ```
 
 
 ## Chrome Extensions
