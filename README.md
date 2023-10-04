@@ -202,6 +202,7 @@ This repository contains a curated list of my favorite and recommended tools for
 | Refined GitHub                | [Link](https://chrome.google.com/webstore/detail/hlepfoohegkhhmjieoechaddaejaokhf) |
 | OctoLinker                    | [Link](https://chrome.google.com/webstore/detail/jlmafbaeoofdegohdhinkhilhclaklkp) |
 | Web Vitals                    | [Link](https://chrome.google.com/webstore/detail/ahfhijdlegdabablpippeagghigmibma) |
+| Wix URL Editor                | [Link](https://chrome.google.com/webstore/detail/wix-url-editor/cnjeapabgkaglpepdedelhceckobmfmn) |
 
 
 ## Chrome Search Engines
